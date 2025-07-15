@@ -3,6 +3,7 @@ import re
 from textblob import TextBlob
 import matplotlib.pyplot as plt
 
+
 def parse_chat(file_path):
     messages = []
     with open(file_path, encoding="utf-8") as f:
